@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/graph"
+                android:layout_width="match_parent"
+                android:layout_height="333dp" />
+
+
+            <TextView
+                android:id="@+id/PromptKey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                 First round attack.\nWhich key do you want to break?(0 to 15)" />
+
+            <EditText
+                android:id="@+id/keyinput"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="82dp"
+                android:text="submit" />
+
+            <TextView
+                android:id="@+id/PrintResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="82dp"
+                android:text="" />
+
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/graph2"
+                android:layout_width="match_parent"
+                android:layout_height="279dp" />
+
+            <TextView
+                android:id="@+id/PromptKey2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                   Last round attack.\nWhich key do you want to break?(0 to 15)" />
+
+            <EditText
+                android:id="@+id/keyinput2"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/submitButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="82dp"
+                android:text="submit" />
+
+            <TextView
+                android:id="@+id/PrintResult2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="82dp"
+                android:text="" />
+
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/graph3"
+                android:layout_width="match_parent"
+                android:layout_height="279dp" />
+
+            <TextView
+                android:id="@+id/PromptKey3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Power traces plot" />
+
+            <TextView
+                android:id="@+id/PrintResult3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="82dp"
+                android:text="" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
