@@ -1,4 +1,4 @@
-This is a sample desktop application where we use python to create a very simple GUI to control key rate calculation. The python will call MATLAB Engine API to run the key rate calculation. 
+This is a sample desktop application where we use python to create a very simple GUI to calculate key rate. The python will call MATLAB Engine API to run the key rate calculation. 
 
 Software used in this:
 1. Python 3.10.10
