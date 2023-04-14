@@ -8,5 +8,5 @@ Software used in this:
 
 **NOTE**
 
-**This is just a very small part of the whole code. The whole code (data acquistion, optimization, post-processing, etc) are confidential. 
-**However, I can show you the live demo of key rate calculation**
+**This is just a very small part of the whole code. The whole code (data acquistion, optimization, post-processing, etc) are confidential.** 
+**However, I can show you the live demo of key rate calculation during interview.**
